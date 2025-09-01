@@ -7,13 +7,13 @@ public class Notas {
         int cal = scanner.nextInt();
         char nota;
 
-        if (cal>90){
+        if (cal>=90){
             nota='A';
-        } else if (cal>80) {
+        } else if (cal>=80) {
             nota='B';
-        } else if (cal>70) {
+        } else if (cal>=70) {
             nota='C';
-        } else if (cal>60) {
+        } else if (cal>=60) {
             nota='D';
         }else
             nota='F';
@@ -21,3 +21,4 @@ public class Notas {
         System.out.println("Su nota es:\n"+nota);
     }
 }
+
